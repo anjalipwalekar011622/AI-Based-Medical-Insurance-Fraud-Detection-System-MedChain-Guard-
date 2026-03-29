@@ -4,7 +4,7 @@ Hackathon-ready. Backend + Frontend. One core feature. Demo-ready in under 10 mi
 
 ---
 
-## ⚡ Quick Start (2 steps)
+##  Quick Start (2 steps)
 
 ### Step 1 — Start the Backend
 ```bash
@@ -24,7 +24,7 @@ cd frontend && python -m http.server 3000
 
 ---
 
-## 🧪 Demo Flow (for judges)
+##  Demo Flow (for judges)
 
 1. Click **🟢 Normal Claim** → submit → shows ✅ LEGITIMATE, low risk score
 2. Click **🔴 Fraudulent** → submit → shows ⛔ FRAUD DETECTED with red alert + risk flags
@@ -32,7 +32,7 @@ cd frontend && python -m http.server 3000
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Browser (HTML/CSS/JS)
@@ -45,7 +45,7 @@ FastAPI Backend (Python)
   └── Risk score 0–100
 ```
 
-## 📊 Features Used for Detection
+##  Features Used for Detection
 | Feature | Why it matters |
 |---|---|
 | Claim Amount | Unusually high = suspicious |
@@ -54,13 +54,13 @@ FastAPI Backend (Python)
 | Days Since Last Claim | Very recent = duplicate claim |
 | Provider Claim Count | High volume = fraudulent provider |
 
-## 🔑 Key Files
+##  Key Files
 - `backend/main.py` — FastAPI server + ML model
 - `frontend/index.html` — Single-file UI (no build needed)
 
 ---
 
-## 📝 Talking Points for Presentation
+##  Talking Points for Presentation
 - **AI Model**: Isolation Forest detects anomalies without labeled training data
 - **Rule Engine**: Domain-specific rules add interpretability
 - **Blockchain concept**: Each verified claim gets a tamper-proof hash (simulated)
